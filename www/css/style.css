@@ -71,8 +71,11 @@
       background-color: skyblue
     }
     button{
-      color: blue
+      color: blue   
     }
     button{
       font-style: italic
+    }
+    button{
+      border-radius: 20px
     }
