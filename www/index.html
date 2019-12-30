@@ -171,6 +171,9 @@
  var img = new Image();
  img.src = "ksuisbg.gif";
  img.onload = function() { ctx.drawImage(img, 0, 0, 300, 300); };
+ var audio = new Audio();
+ audio.src = "Cartoon.mp3";
+ audio.play();
 
         
     }
@@ -187,6 +190,7 @@
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
         active = false;
+        audio.pause();
         
     }
 
